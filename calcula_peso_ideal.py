@@ -1,7 +1,6 @@
 # Sua solução aqui
-entrada = input().split(" ")
-altura = float(entrada[0])
-genero = entrada[1]
+altura = float(input())
+genero = input()
 
 if "M" in genero:
     peso = (72.7 * altura) - 58
